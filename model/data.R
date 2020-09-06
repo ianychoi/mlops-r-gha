@@ -49,7 +49,7 @@ ws <- get_workspace(WSNAME,
 
 cat("Found workspace\n")
 
-## Upload data file to datastore
+## Upload data file to datastore (Azure)
 
 ds <- get_default_datastore(ws)
 target_path <- "accidentdata"
