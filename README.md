@@ -72,3 +72,4 @@ The application runs as a Shiny app, running on an instance of the Azure Data Sc
 
 3. Deploy an Azure Data Science Virtual Machine and configure it as the Shiny Server by [following these instructions](Setup-DSVM.md).
 
+4. Run GitHub Actions by triggering your repository with commit & push activities!
