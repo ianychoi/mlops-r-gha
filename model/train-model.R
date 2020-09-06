@@ -61,7 +61,8 @@ cat("Found cluster\n")
 ds <- get_default_datastore(ws)
 target_path <- "accidentdata"
 
-download_from_datastore(ds, target_path=".", prefix="accidentdata")
+download_num <- download_from_datastore(ds, target_path=".", prefix="accidentdata", overwrite = FALSE, show_progress = TRUE)
+cat(download_num,"\n")
 
 exp <- experiment(ws, "accident")
 
