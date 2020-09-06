@@ -1,6 +1,6 @@
 # Upload data -- only needs to be rerun once
 
-name: Upload data
+name: Upload data to AzureML
 
 # Runs if data file modified
 on:
