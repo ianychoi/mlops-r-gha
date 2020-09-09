@@ -1,6 +1,8 @@
 library(azuremlsdk)
 cat("Completed package load\n")
 
+
+
 library(jsonlite)
 cat("Loaded jsonlite\n")
 AZURE_CREDENTIALS=Sys.getenv("AZURE_CREDENTIALS")
